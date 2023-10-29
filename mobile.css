@@ -1,9 +1,9 @@
-*{
-   margin: 0;
-   padding: 0;
+* {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: gray;
   width: 100%;
   padding: 25px;
@@ -11,7 +11,7 @@ body{
   min-height: -webkit-fill-available;
 }
 
-#mainContainer{
+#mainContainer {
   background-color: white;
   padding: 40px;
   border-radius: 30px;
@@ -20,33 +20,27 @@ body{
 
 .mySlides1 {
   display: none;
-  overflow: ;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
-#first{
-  background-color: ;
+#first {
 }
-.moon{
+.moon {
   width: 20%;
-  height: ;
-  background-color: ;
   position: relative;
   display: flex;
-  border-radius: ;
   right: 10%;
 }
 
-.half-moon{
+.half-moon {
   width: 50%;
   height: 35px;
   background-color: white;
-  border-radius: ;
   position: relative;
   z-index: 1;
 }
 
-.half-moon2{
+.half-moon2 {
   width: 50%;
   height: 35px;
   background-color: black;
@@ -55,15 +49,12 @@ body{
   right: 30%;
 }
 
-.image-area{
+.image-area {
   display: grid;
-  background-color: ;
-  width: ;
   position: relative;
-  bottom: ;
 }
 
-.red-background{
+.red-background {
   width: 100%;
   background-color: darkred;
   height: 70px;
@@ -73,23 +64,18 @@ body{
   bottom: 140px;
 }
 
-.image-div{
-  background-color: ;
+.image-div {
   width: 100%;
-  height: ;
   z-index: 1;
 }
 
-.image{
+.image {
   position: relative;
   width: 100%;
   display: flex;
   margin: auto;
   height: 400px;
   bottom: 50px;
-  background-color: ;
-  left: ;
-  right: ;
   object-fit: cover;
   object-position: 60%;
   border: none;
@@ -98,7 +84,7 @@ body{
   /*-webkit-box-reflect: below 10px;*/
 }
 
-.skyblue-background{
+.skyblue-background {
   position: relative;
   margin: auto;
   width: 90%;
@@ -110,46 +96,43 @@ body{
   bottom: 85px;
 }
 
-.txt-area{
-  background-color: ;
+.txt-area {
   position: relative;
   bottom: 30px;
 }
 
-.txt-area h3{
+.txt-area h3 {
   text-transform: capitalize;
   color: gray;
   font-family: serif;
   margin-bottom: 10px;
 }
 
-h3 a{
+h3 a {
   color: gray;
 }
 
-.txt-area div{
+.txt-area div {
   width: 80%;
   font-weight: bold;
   font-size: 25px;
-  background-color: ;
   font-family: verdana;
 }
 
-.nxt{
-  background-color: ;
+.nxt {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
 
-.nxt a{
+.nxt a {
   text-decoration: none;
   color: gray;
   font-size: 15px;
   text-transform: capitalize;
 }
 
-.nxt-button{
+.nxt-button {
   background-color: darkcyan;
   color: white;
   font-size: 15px;
@@ -161,38 +144,29 @@ h3 a{
   cursor: pointer;
 }
 
-
-
-
-
-
-
-
-#second{
-
+#second {
 }
 
-.hey{
+.hey {
   display: grid;
   position: relative;
   margin-top: 123px;
-  background-color: ;
   margin-bottom: 20px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
 
-.hey h2{
+.hey h2 {
   font-size: xx-large;
   text-transform: capitalize;
 }
 
-.hey h3{
+.hey h3 {
   text-transform: capitalize;
 }
 
-.new-account{
+.new-account {
   display: flex;
   margin-bottom: 60px;
   width: 80%;
@@ -200,34 +174,32 @@ h3 a{
   margin-right: auto;
 }
 
-.new-account h5{
+.new-account h5 {
   color: gray;
 }
 
-.new-account a{
+.new-account a {
   text-decoration: none;
 }
 
-.input-area{
+.input-area {
   display: grid;
-  padding: ;
-  background-color: ;
   margin-top: 10px;
 }
 
-.user-name{
+.user-name {
   font-size: small;
   padding: 15px;
   width: 80%;
   margin: auto;
-  background-color: rgba(255, 165, 0, .5);
+  background-color: rgba(255, 165, 0, 0.5);
   color: black;
   margin-bottom: 25px;
   border-radius: 10px;
   border: none;
 }
 
-.passcode{
+.passcode {
   font-size: x-small;
   padding: 15px;
   width: 80%;
@@ -239,31 +211,28 @@ h3 a{
   border: none;
 }
 
-.input-area h5{
+.input-area h5 {
   color: gray;
   width: 80%;
-  background-color: ;
   margin: auto;
   font-size: 15px;
 }
 
-.input-area a{
+.input-area a {
   text-decoration: none;
   font-size: 18px;
   font-weight: bold;
   text-transform: capitalize;
 }
 
-
-.button-div{
+.button-div {
   width: 80%;
   margin: auto;
-  background-color: ;
   margin-top: 63px;
   margin-bottom: 30px;
 }
 
-.button-div button{
+.button-div button {
   width: 100%;
   background-color: darkred;
   padding: 15px;
@@ -275,61 +244,51 @@ h3 a{
   cursor: pointer;
 }
 
-
-.pre{
+.pre {
   display: flex;
   justify-content: center;
 }
-.pre button{
+.pre button {
   background-color: inherit;
   color: gray;
 }
 
-.pre button:hover{
+.pre button:hover {
   color: darkcyan;
 }
 
-
-
-
-
-
-
-.userTxt{
-  color: ;
+.userTxt {
   text-align: center;
   margin: auto 5px auto 5px;
   font-weight: bold;
 }
 
-.dropbtn{
+.dropbtn {
   cursor: pointer;
   background-color: inherit;
   color: blue;
   border: none;
   font-size: large;
 }
-.dropbtn:hover{
+.dropbtn:hover {
   color: cyan;
 }
 
-.red-background2{
+.red-background2 {
   width: 100%;
   background-color: darkred;
   height: 80px;
   -ms-transform: skewY(350deg); /* IE 9 */
   transform: skewY(350deg);
   position: relative;
-  bottom: ;
   margin-top: 50px;
 }
 
-.third-image{
+.third-image {
   width: 30%;
   height: 100px;
   margin: auto;
   background-color: darkgray;
-  border-radius: ;
   border-bottom-left-radius: 35%;
   border-bottom-right-radius: 35%;
   border-top-right-radius: 35%;
@@ -338,7 +297,7 @@ h3 a{
   bottom: 50px;
 }
 
-.third-image img{
+.third-image img {
   width: 100%;
   height: 90%;
   object-fit: cover;
@@ -350,18 +309,17 @@ h3 a{
   z-index: 1;
 }
 
-.third-image div{
-  background-color: ;
+.third-image div {
   height: 5%;
 }
 
-.third-image input{
+.third-image input {
   position: relative;
   bottom: 90px;
   font-size: xx-small;
 }
 
-.third-image .fas{
+.third-image .fas {
   width: 30%;
   font-size: 20px;
   height: 32px;
@@ -370,7 +328,7 @@ h3 a{
   border-radius: 50%;
 }
 
-.fa-camera{
+.fa-camera {
   position: relative;
   bottom: 90px;
   left: 95px;
@@ -378,79 +336,68 @@ h3 a{
   cursor: pointer;
 }
 
-.reaction{
-  background-color: ;
+.reaction {
   margin-top: 2px;
   display: flex;
   justify-content: space-between;
   text-transform: capitalize;
 }
 
-.reaction div{
+.reaction div {
   display: grid;
 }
 
-.xter{
+.xter {
   padding-bottom: 8px;
   color: gray;
 }
 
-.digit{
+.digit {
   text-align: center;
   font-weight: bold;
 }
 
-.h3{
+.h3 {
   text-transform: capitalize;
   font-size: large;
   margin-top: 40px;
 }
 
-
-.slides-container{
+.slides-container {
   display: flex;
   width: 100%;
   height: 220px;
   margin-top: 40px;
   justify-content: space-between;
-  background-color: ;
 }
-.small-slides1{
+.small-slides1 {
   width: 45%;
-  height: ;
   background-color: deepskyblue;
   border: none;
   border-radius: 10px;
-  position: ;
-
 }
 
-.small-slides2{
+.small-slides2 {
   width: 45%;
-  height: ;
-  background-color: rgba(255, 165, 0, .5);
+  background-color: rgba(255, 165, 0, 0.5);
   border: none;
   border-radius: 10px;
 }
 
-.mySlides2, .mySlides3{
+.mySlides2,
+.mySlides3 {
   width: 100%;
-  display: ;
   height: 100%;
   padding: 10px 15px;
-  background-color: ;
-  position: ;
-  
 }
 
-#gallary{
+#gallary {
   display: flex;
   justify-content: center;
   font-size: 25px;
 }
 
-
-.mySlides2 img{
+.mySlides2 img {
   height: 60%;
   width: 100%;
   margin: 8px 0px;
@@ -459,87 +406,88 @@ h3 a{
 }
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
-
-.span1{
+.span1 {
   color: blue;
   text-align: center;
 }
 
-.span1, .span2, .span3{
+.span1,
+.span2,
+.span3 {
   text-transform: capitalize;
   display: grid;
   padding: 3px 1px;
-
 }
 
-.span3{
+.span3 {
   display: flex;
   justify-content: space-between;
-  background-color: ;
   width: 100%;
 }
 
-.span3 button{
+.span3 button {
   background-color: inherit;
   border: none;
   cursor: pointer;
 }
 
-.span3 button:hover{
+.span3 button:hover {
   color: red;
   animation-name: flash;
   animation-duration: 0.8s;
   animation-iteration-count: infinite;
 }
 
- @keyframes flash {
-  0%, 50%, 100% {
-     opacity: 1;
+@keyframes flash {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
   }
-  25%, 75% {
-     opacity: 0;
+  25%,
+  75% {
+    opacity: 0;
   }
 }
 
-.mySlides3 .span1{
+.mySlides3 .span1 {
   text-align: left;
 }
 
-.mySlides3 .span1{
+.mySlides3 .span1 {
   text-transform: capitalize;
   padding: 10px 1px;
-
 }
 
-.mySlides3 .span2{
+.mySlides3 .span2 {
   text-transform: capitalize;
   padding: 10px 1px;
-
 }
 
-.span{
+.span {
   color: blue;
   text-transform: capitalize;
-  background-color: ;
   text-align: center;
   position: relative;
   top: 10px;
 }
 
-.mySlides3 div{
+.mySlides3 div {
   display: flex;
   position: relative;
   top: 20px;
 }
 
-.fab{
+.fab {
   width: 20%;
-  background-color: ;
-  color: ;
   height: 26px;
   font-size: 20px;
   padding: 4px;
@@ -547,36 +495,51 @@ h3 a{
   margin: 0px 3px;
 }
 
-.fa-facebook{
-  color:  #3b5998;
+.fa-facebook {
+  color: #3b5998;
   background: white;
 }
-.fa-whatsapp{
+.fa-whatsapp {
   color: white;
   background-color: green;
 }
-.fa-twitter{
+.fa-twitter {
   color: white;
   background-color: #55acee;
 }
-.fa-instagram{
+.fa-instagram {
   color: white;
   background: #e1306c;
 }
-.fa-youtube{
+.fa-youtube {
   color: white;
   background-color: #bb0000;
 }
-.fa-linkedin{
+.fa-linkedin {
   color: white;
   background-color: #125688;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.mySlides3 button{
+.mySlides3 button {
   position: relative;
   top: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: black;
+  }
+  #mainContainer {
+    background-color: white;
+    padding: 40px;
+    border-radius: 30px;
+    position: relative;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
