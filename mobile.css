@@ -6,7 +6,6 @@
 body {
   background-color: gray;
   width: 100%;
-  padding: 25px;
   max-height: 100vh;
   min-height: -webkit-fill-available;
 }
@@ -14,7 +13,6 @@ body {
 #mainContainer {
   background-color: white;
   padding: 40px;
-  border-radius: 30px;
   position: relative;
 }
 
@@ -58,7 +56,7 @@ body {
   width: 100%;
   background-color: darkred;
   height: 70px;
-  -ms-transform: skewY(350deg); /* IE 9 */
+  -ms-transform: skewY(350deg);
   transform: skewY(350deg);
   position: relative;
   bottom: 140px;
@@ -81,7 +79,6 @@ body {
   border: none;
   z-index: 1;
   margin-bottom: -90px;
-  /*-webkit-box-reflect: below 10px;*/
 }
 
 .skyblue-background {
@@ -90,7 +87,7 @@ body {
   width: 90%;
   background-color: deepskyblue;
   height: 60px;
-  -ms-transform: skewY(350deg); /* IE 9 */
+  -ms-transform: skewY(350deg);
   transform: skewY(350deg);
   z-index: 1;
   bottom: 85px;
@@ -278,7 +275,7 @@ h3 a {
   width: 100%;
   background-color: darkred;
   height: 80px;
-  -ms-transform: skewY(350deg); /* IE 9 */
+  -ms-transform: skewY(350deg);
   transform: skewY(350deg);
   position: relative;
   margin-top: 50px;
@@ -532,6 +529,8 @@ a {
 @media screen and (min-width: 600px) {
   body {
     background-color: black;
+  padding: 25px;
+
   }
   #mainContainer {
     background-color: white;
